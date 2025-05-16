@@ -10,7 +10,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="Escolha"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
 
         <CheckBox
             android:id="@+id/chkLivros"
@@ -29,6 +41,74 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Comer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="Escolha"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdbVerdadeiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verdadeiro" />
+
+            <RadioButton
+                android:id="@+id/rdbFalso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falso" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="Geral"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Wifi" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bluetooth" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtMAviao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Modo avião" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtNPertube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Não pertube" />
+
+
     </LinearLayout>
 
 
